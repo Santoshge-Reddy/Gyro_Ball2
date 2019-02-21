@@ -1,4 +1,4 @@
-alert('here');
+
 
 if ( !window.requestAnimationFrame ) {
 	alert('here');
@@ -27,6 +27,8 @@ var h;
 
 function init()
 {
+	
+	alert('here');
     ball = document.getElementById("ball");
 	 w = window.innerWidth;
      h = window.innerHeight;
