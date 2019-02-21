@@ -1,7 +1,7 @@
 
 
 if ( !window.requestAnimationFrame ) {
-	alert('here');
+
  
     window.requestAnimationFrame = ( function() {
  
@@ -46,7 +46,7 @@ function init()
 			ball.velocity.x = Math.round(event.gamma);
         }
                                )
-	    alert('here');
+	    alert('into');
     }
     else {
   	alert("Sorry, your browser doesn't support Device Orientation");
