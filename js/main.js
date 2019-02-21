@@ -1,3 +1,5 @@
+alert('here');
+
 if ( !window.requestAnimationFrame ) {
 	alert('here');
  
