@@ -28,7 +28,7 @@ var h;
 function init()
 {
 	
-	alert('here');
+	
     ball = document.getElementById("ball");
 	 w = window.innerWidth;
      h = window.innerHeight;
@@ -46,6 +46,7 @@ function init()
 			ball.velocity.x = Math.round(event.gamma);
         }
                                )
+	    alert('here');
     }
     else {
   	alert("Sorry, your browser doesn't support Device Orientation");
