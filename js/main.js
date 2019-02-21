@@ -1,4 +1,5 @@
 if ( !window.requestAnimationFrame ) {
+	alert('here');
  
     window.requestAnimationFrame = ( function() {
  
